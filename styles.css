@@ -1,0 +1,7 @@
+
+body { background: #f8f9fa; }
+.card-img-top { height:180px; object-fit:contain; background:#fff; padding:12px; }
+.product-name { font-size:0.95rem; font-weight:600; }
+.btn-add { width:100%; }
+.small-muted { font-size:0.85rem; color:#6c757d; }
+@media (max-width:576px){ .card-img-top{height:140px;} }
