@@ -5,3 +5,27 @@ body { background: #f8f9fa; }
 .btn-add { width:100%; }
 .small-muted { font-size:0.85rem; color:#6c757d; }
 @media (max-width:576px){ .card-img-top{height:140px;} }
+
+.project-footer{
+    background:#111;
+    padding:20px;
+    margin-top:40px;
+    text-align:center;
+    color:#fff;
+    border-top:1px solid #333;
+}
+
+.project-footer .my-photo{
+    width:90px;
+    height:90px;
+    border-radius:50%;
+    object-fit:cover;
+    margin-bottom:10px;
+    border:2px solid #555;
+}
+
+.project-footer p{
+    margin:4px 0;
+    font-size:14px;
+    opacity:0.9;
+}
